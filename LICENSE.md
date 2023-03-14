@@ -1,1 +1,1 @@
-See https://mit-license.org/
+See https:/cq.mit-license.org/
