@@ -1,0 +1,1 @@
+See https://mit-license.org/
