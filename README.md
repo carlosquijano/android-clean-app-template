@@ -42,10 +42,6 @@ Here's a breakdown of the project's main packages:
 
 Contributions to this project are welcome! If you find a bug or would like to suggest an enhancement, please open an issue on GitHub. Pull requests are also welcome.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/carlosquijano/jetpack-compose-app-template/tags).
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
