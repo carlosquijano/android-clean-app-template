@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spanish locale -->
+    <string name="app_name">android-jetpack-template</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="welcome_footer">Hecho con ❤️ desde 🇸🇻</string>
+    <string name="homepage">Inicio</string>
+    <string name="profile">Perfil</string>
+    <string name="notifications">Notificationes</string>
+    <string name="settings">Config</string>
+    <string name="signup_label">Crear Cuenta</string>
+    <string name="login_label">Iniciar Sesión</string>
+    <string name="logout_label">Cerrar Sesión</string>
+    <string name="login_submit_label">Iniciar Sesión</string>
+    <string name="login_username_label">USUARIO</string>
+    <string name="login_username_placeholder">Ingrese su Usuario</string>
+    <string name="login_password_label">CLAVE</string>
+    <string name="login_password_placeholder">Ingrese su Clave</string>
+    <string name="login_forgot_label">Ha olvidado su Clave?</string>
+    <string name="login_remember_label">Recordar Clave</string>
+    <string name="login_dont_have_account_label">No tiene una cuenta?</string>
+    <string name="login_signup_label">Crear Cuenta Nueva</string>
+    <string name="login_header_label">Login</string>
+    <string name="login_header_body">Para ingresar al App es necesario que inicie sesión, para ello identifique con los datos de su cuenta a continuación</string>
+    <string name="login_success_message">Sesión iniciada</string>
+    <string name="login_failure_message">Error al iniciar sesión</string>
+</resources>

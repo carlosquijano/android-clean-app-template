@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Jetpack Compose App Template</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_footer">Made with ❤️ from 🇸🇻</string>
+    <string name="homepage">Home</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Config</string>
+    <string name="signup_label">Signup</string>
+    <string name="login_label">Login</string>
+    <string name="logout_label">Logout</string>
+    <string name="login_submit_label">Login</string>
+    <string name="login_username_label">USERNAME</string>
+    <string name="login_username_placeholder">Enter username</string>
+    <string name="login_password_label">PASSWORD</string>
+    <string name="login_password_placeholder">Enter password</string>
+    <string name="login_forgot_label">Forgot Password?</string>
+    <string name="login_remember_label">Remember Password</string>
+    <string name="login_dont_have_account_label">No tiene una cuenta?</string>
+    <string name="login_signup_label">Signup</string>
+    <string name="login_header_label">Login</string>
+    <string name="login_header_body">Para ingresar al App es necesario que inicie sesión, para ello identifique con los datos de su cuenta a continuación</string>
+    <string name="login_success_message">Login successful</string>
+    <string name="login_failure_message">Login error</string>
 </resources>

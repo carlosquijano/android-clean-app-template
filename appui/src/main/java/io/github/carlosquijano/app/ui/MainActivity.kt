@@ -4,13 +4,10 @@ import android.app.Application
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
-import io.github.carlosquijano.app.ux.common.AppSurface
-import io.github.carlosquijano.app.ux.common.Greeting
+import io.github.carlosquijano.app.ui.common.AppSurface
+import io.github.carlosquijano.app.ux.features.navigation.NavigationFeature
 
 @HiltAndroidApp
 class MainApplication : Application()
@@ -21,11 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             AppSurface {
-                Greeting(
-                    Modifier.fillMaxWidth(),
-                    textAlign = TextAlign.Center,
-                    name = "Android",
-                )
+                NavigationFeature().TryFeature()
             }
         }
     }

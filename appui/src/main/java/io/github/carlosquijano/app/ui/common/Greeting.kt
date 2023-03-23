@@ -1,4 +1,4 @@
-package io.github.carlosquijano.app.ux.common
+package io.github.carlosquijano.app.ui.common
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
