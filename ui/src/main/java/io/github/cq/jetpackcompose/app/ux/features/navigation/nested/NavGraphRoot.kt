@@ -41,7 +41,7 @@ fun NestedNavigationGraph(
             // In next code line
             // We load the welcome feature
             WelcomeFeature(
-                navController = rootController
+                navController = rootController,
             ).TryFeature()
         }
 

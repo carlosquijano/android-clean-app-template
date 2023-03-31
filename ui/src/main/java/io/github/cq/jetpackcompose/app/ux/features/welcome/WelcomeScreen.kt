@@ -54,11 +54,11 @@ fun WelcomeScreen(
         ) {
             ButtonMedium(
                 text = labelLogin,
-                onClick = onClickLogin
+                onClick = onClickLogin,
             )
             ButtonMedium(
                 text = labelSignup,
-                onClick = onClickSignup
+                onClick = onClickSignup,
             )
         }
     }

@@ -36,7 +36,7 @@ fun LoginHeader(
 fun LoginHeaderPreview() {
     AppContainer {
         LoginHeader(
-            text = "ead"
+            text = "ead",
         )
     }
 }
