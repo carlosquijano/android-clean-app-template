@@ -1,4 +1,3 @@
-
 /**
  * The pluginManagement {repositories {...}} block configures the
  * repositories Gradle uses to search or download the Gradle plugins and
@@ -39,5 +38,5 @@ dependencyResolutionManagement {
 rootProject.name = "jetpack-compose-app-template"
 
 // Include sub-modules
-include ':appui'
+include ':ui'
 include ':data'

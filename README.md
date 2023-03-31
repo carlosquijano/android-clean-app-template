@@ -4,7 +4,7 @@
 
 ## About
 
-This is a starter template for an Android app built with Jetpack Compose. 
+This is a starter template for an Android app built with Jetpack Compose.
 
 ### Features at a glance
 
@@ -13,14 +13,14 @@ This is a starter template for an Android app built with Jetpack Compose.
 - MVVM Architecture principles
 - Dagger Hilt for dependency injection
 - UI starter templates
-  - Welcome, Help and About Screens
-  - Login, Signup, Forgot Password and OT Recovery Screens
-  - User Profile and Settings Screens
-  - Rate App Screens
+    - Welcome, Help and About Screens
+    - Login, Signup, Forgot Password and OT Recovery Screens
+    - User Profile and Settings Screens
+    - Rate App Screens
 
 ### Build with
 
-- Gradle
+- Gradle 7.5
 - Android SDK 33
 - Jetpack Compose 1.3.3
 - Material Design 3
@@ -28,19 +28,25 @@ This is a starter template for an Android app built with Jetpack Compose.
 
 ### Project Structure
 
-The project follows the Clean Architecture pattern, with separate layers for data, domain, and presentation. 
+The project follows the Clean Architecture pattern, with separate layers for data, domain, and
+presentation.
 
 Here's a breakdown of the project's main packages:
 
-- `data`: This package contains classes and interfaces for interacting with data sources, such as a remote API or a local database.
-- `domain`: This package contains the core business logic for the app, such as use cases and domain models.
+- `data`: This package contains classes and interfaces for interacting with data sources, such as a
+  remote API or a local database.
+- `domain`: This package contains the core business logic for the app, such as use cases and domain
+  models.
 - `di`: This package contains the Dagger Hilt dependency injection setup for the app.
-- `ux`: This package contains pre-built UI templates that you can use as starting points for your own screens.
-- `ui`: This package contains the UI code for the app, including Composables, ViewModels, and other UI-related classes.
+- `ux`: This package contains pre-built UI templates that you can use as starting points for your
+  own screens.
+- `ui`: This package contains the UI code for the app, including Composables, ViewModels, and other
+  UI-related classes.
 
 ## Contributing
 
-Contributions to this project are welcome! If you find a bug or would like to suggest an enhancement, please open an issue on GitHub. Pull requests are also welcome.
+Contributions to this project are welcome! If you find a bug or would like to suggest an
+enhancement, please open an issue on GitHub. Pull requests are also welcome.
 
 ## License
 
