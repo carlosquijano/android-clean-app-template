@@ -5,18 +5,19 @@ buildscript {
     ext {
         // You can also create properties to specify versions for dependencies.
         // Having consistent versions between modules can avoid conflicts with behavior.
-        compose_version = '1.4.0'
+        compose_version = '1.4.2'
+        activity_compose = '1.7.1'
+        hilt_version = '2.45'
+        hilt_navigation_version = '1.0.0'
+        ktx_version = '1.10.0'
+        lifecycle_ktx_version = '2.6.1'
         appcompat_version = '1.6.1'
-        activity_compose_version = '1.7.0'
-        navigation_compose_version = '2.5.3'
-        android_junit_version = '1.1.5'
-        android_hilt_version = '1.0.0'
-        dagger_hilt_version = '2.45'
-        ktx_version = '1.9.0'
+        material_version = '1.8.0'
+        material3_version = '1.1.0-rc01'
         junit_version = '4.13.2'
-        material3_version = '1.0.1'
-        espresso_version = '3.5.1'
-        lifecycle_runtime_ktx_version = '2.6.1'
+        android_junit_version = '1.1.5'
+        navigation_compose_version = '2.5.3'
+        espresso_core_version = '3.5.1'
     }
 }
 
@@ -30,7 +31,6 @@ plugins {
      */
     id 'com.android.application' version '7.4.2' apply false
     id 'com.android.library' version '7.4.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.20' apply false
     id 'com.google.dagger.hilt.android' version '2.45' apply false
-    id 'com.diffplug.spotless' version '6.14.0' apply false
 }

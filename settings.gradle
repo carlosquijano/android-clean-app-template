@@ -35,8 +35,9 @@ dependencyResolutionManagement {
 }
 
 // Specify the root project name for the app
-rootProject.name = "jetpack-compose-app-template"
+rootProject.name = "android-clean-app-template"
 
-// Include sub-modules
-include ':ui'
-include ':data'
+// Include sub modules
+include(":lib:core")
+include(":lib:data")
+include(":lib:ui")
