@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 
     id 'com.google.dagger.hilt.android'
@@ -47,9 +47,9 @@ android {
 }
 
 dependencies {
-    project(":lib:core")
-    project(":lib:data")
-    project(":lib:ui")
+    implementation project(":lib:core")
+    implementation project(":lib:data")
+    implementation project(":lib:ui")
 
     // Android core libraries
     implementation "androidx.core:core-ktx:$ktx_version"
@@ -62,7 +62,7 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
 
-    // kapt test
+    // Kapt test
     kaptTest "com.google.dagger:hilt-android-compiler:$hilt_version"
     kaptAndroidTest "com.google.dagger:hilt-android-compiler:$hilt_version"
 

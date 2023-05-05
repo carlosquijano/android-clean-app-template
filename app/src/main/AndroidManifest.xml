@@ -9,13 +9,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name="io.github.appfactoryhub.nano.app.MainApp"
-        android:theme="@style/Theme.NanoApplication">
+        android:theme="@style/Theme.PurpleTealTheme"
+        android:name="io.github.carlosquijano.appx.MainApp">
         <activity
-            android:name="io.github.appfactoryhub.nano.lib.ui.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.NanoApplication">
+            android:name="io.github.carlosquijano.appx.ui.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -41,3 +41,4 @@ rootProject.name = "android-clean-app-template"
 include(":lib:core")
 include(":lib:data")
 include(":lib:ui")
+include(":app")
