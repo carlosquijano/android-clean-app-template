@@ -2,12 +2,13 @@
 
 🚀 Android clean app starter template
 
-## Planned Features 🥑
+## Template Features 🥑
 
 - Utilizes the latest Android 13 (API level 33).
 - Incorporates Dagger Hilt to simplify dependency injection and improve testability.
-- Uses Google Material3 design principles.
-- Implements Google Jetpack Compose to build a common composable UI component library.
+- Uses Google Material design principles.
+- Uses Google Jetpack Compose to build a common UI library.
+- Implements Material You and Android 13 design components, typography, shape and colors.
 - Includes On-Demand Dynamic Features to optimize app size and improve performance.
 - Includes comprehensive E2E testing to ensure the app's quality and reliability.
 
@@ -22,7 +23,7 @@ git clone https://github.com/theappfactory/android-clean-app-template.git
 
 2. Open the project in Android Studio.
 
-3. Build and run the app in Android Studio.
+4. Build and run the app in Android Studio.
 
 ## Testing
 

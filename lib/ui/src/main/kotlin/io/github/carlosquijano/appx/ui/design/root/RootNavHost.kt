@@ -1,6 +1,5 @@
 package io.github.carlosquijano.appx.ui.design.root
 
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
@@ -8,6 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import io.github.carlosquijano.appx.ui.design.scaffold.ScaffoldView
+import io.github.carlosquijano.appx.ui.design.welcome.WelcomeView
 
 @Composable
 fun RootNavHost(
@@ -20,7 +20,7 @@ fun RootNavHost(
     ) {
         // WELCOME route handler
         composable(route = RootNavRoutes.WELCOME) {
-            Text(text = "WELCOME")
+            WelcomeView(navController = navController)
         }
         // In the code line above
         // We add the auth navigation graph to this nav host controller
